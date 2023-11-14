@@ -14,9 +14,6 @@ Comandos Alumno 2:
 - Comparar diferencias entre dos ramas en menos de dos minutos: git diff ramaAlumno2..main
 - Fusionar ramaAlumno2 con la principal: git checkout main (viajar a principal),  git pull origin main (actualizar), git merge ramaAlumno2 (fusionar), git push (subir)
 
-
-<<<<<<< HEAD
-=======
 Comandos Alumno 1
 - Crear directorio: mkdir Git_IA
 - Crear repositorio: git init
@@ -36,5 +33,4 @@ Comandos Alumno 1
 - Anadir archivos: git add almacen_cli.java
 - Hacer commit de los cambios: git commit -m "Anadiendo fichero almacen_cli.java"
 - Ver diferencias entre ramas en menos de 2 minutos: git diff ramaAlumno1..main
-- Realizar merge: git checkout main, git pull origin main, git merge ramaAlumno1, git push
->>>>>>> ramaAlumno1
+- Realizar merge: git checkout main, git pull origin main, git merge ramaAlumno1, git add README.md, git push
