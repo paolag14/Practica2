@@ -14,7 +14,8 @@ Comandos Alumno 2:
 - Comparar diferencias entre dos ramas en menos de dos minutos: git diff ramaAlumno2..main
 - Fusionar ramaAlumno2 con la principal: git checkout main (viajar a principal),  git pull origin main (actualizar), git merge ramaAlumno2 (fusionar), git push (subir)
 - Con git config --global credential.helper store la próxima vez que usemos el token se quedará guardado en nuestra memoria local.
-
+- Creacion de archivo log de rama: git log > LogAlumno2.txt 
+- Actualizar cambios en el repositorio remoto: git add LogAlumno2.txt, git commit -m "Creación LogAlumno2.txt", git push
 
 Comandos Alumno 1
 - Crear directorio: mkdir Git_IA
@@ -38,5 +39,5 @@ Comandos Alumno 1
 - Realizar merge: git checkout main, git pull origin main, git merge ramaAlumno1, git add README.md, git push
 - Configuracion de Git para guardar credenciales: git config --global credential.helper store
 - Creacion de archivo log de rama: git log > LogAlumno1.txt
-- Agregar archivos: git add LogAlumno2.txt
-- Subir a repositorio remoto: git commit -m "Creacion LogAlumno2.txt", git push
+- Agregar archivos: git add LogAlumno1.txt
+- Subir a repositorio remoto: git commit -m "Creacion LogAlumno1.txt", git push
