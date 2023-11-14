@@ -36,3 +36,7 @@ Comandos Alumno 1
 - Hacer commit de los cambios: git commit -m "Anadiendo fichero almacen_cli.java"
 - Ver diferencias entre ramas en menos de 2 minutos: git diff ramaAlumno1..main
 - Realizar merge: git checkout main, git pull origin main, git merge ramaAlumno1, git add README.md, git push
+- Configuracion de Git para guardar credenciales: git config --global credential.helper store
+- Creacion de archivo log de rama: git log > LogAlumno1.txt
+- Agregar archivos: git add LogAlumno2.txt
+- Subir a repositorio remoto: git commit -m "Creacion LogAlumno2.txt", git push
