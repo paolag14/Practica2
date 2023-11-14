@@ -13,6 +13,8 @@ Comandos Alumno 2:
 - Añadir cliente.java al repositorio local: git add cliente.java / git add cliente.java -m "Añadiendo fichero cliente.java"
 - Comparar diferencias entre dos ramas en menos de dos minutos: git diff ramaAlumno2..main
 - Fusionar ramaAlumno2 con la principal: git checkout main (viajar a principal),  git pull origin main (actualizar), git merge ramaAlumno2 (fusionar), git push (subir)
+- Con git config --global credential.helper store la próxima vez que usemos el token se quedará guardado en nuestra memoria local.
+
 
 Comandos Alumno 1
 - Crear directorio: mkdir Git_IA
